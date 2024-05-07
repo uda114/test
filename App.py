@@ -67,7 +67,7 @@ class WorkManager:
             
     def DateFilter(self):
         
-        tabledata = []
+        tabledata = [] 
         sortDateTask = sorted(self.tasks, key=lambda x: x.due_date )
         for i, task in enumerate(sortDateTask, start=1):
             #print(f"{i}. [{task.priority}] {task.title} - {task.category} - Due {task.due_date} - {'Completed' if task.comleted else 'Pending'}")

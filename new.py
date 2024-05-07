@@ -12,7 +12,7 @@ class Task:
         self.priority = priority
         self.category = category
         self.due_date = due_date
-        self.completed = completed
+        self.completed = completed 
 
 class TaskManager:
     def __init__(self):
